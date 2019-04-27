@@ -1,6 +1,7 @@
 build: off
 
 test_script:
+  - set
   - where bash
   - bash --version
   - bash -c 'export'
